@@ -1,6 +1,6 @@
 CC = g++
 CCFLAGS = -Wall -std=c++11
-LNKFLAGS = -ltorrent-rasterbar -lboost_system
+LNKFLAGS = -ltorrent -lboost_system
 OUTPUTDIR = ~
 OBJECTS = dht_crawler.o main_dht_crawler.o
 TARGET = dht_crawler
